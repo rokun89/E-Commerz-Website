@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\backendController;
+use App\Http\Controllers\frontendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[backendController::class,'admin'])->name('base.url');
+
+Route::get('/web',[frontendController::class,'frontend'])->name('frontend.url');
