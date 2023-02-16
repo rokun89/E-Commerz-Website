@@ -10,8 +10,4 @@ class backendController extends Controller
     {
         return view('backend.master');
     }
-    public function product()
-    {
-        return view('backend.pages.product');
-    }
 }
