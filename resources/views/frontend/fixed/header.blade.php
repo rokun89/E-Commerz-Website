@@ -104,12 +104,14 @@
 
               <div class="col-lg-5 pr-0">
                 <ul class="nav navbar-nav navbar-right right_nav pull-right">
-                  <li class="nav-item">
-                    <a href="#" class="icons">
+                  <li style="padding-top: 5%;" class="nav-item">
+                    <form action="#">
+                    
                       <i class="ti-search" aria-hidden="true"></i>
-                    </a>
+                      <input name="search_key" type="text" placeholder="Serach Here" value="">
+				              <button class="btn btn-success" type="submit">Search</button>
+                    </form>
                   </li>
-
                   <li class="nav-item">
                     <a href="#" class="icons">
                       <i class="ti-shopping-cart"></i>
