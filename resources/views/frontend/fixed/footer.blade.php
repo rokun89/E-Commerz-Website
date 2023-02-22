@@ -4,6 +4,9 @@
             h4{
               color: white;
             }
+            p{
+              color: whitesmoke;
+            }
           </style>
   <footer class="footer-area section_gap">
     <div class="container">
@@ -25,7 +28,6 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h4 class="text-uppercase mb-4 font-weight-bold">Team</h4>
             <p> 1. Monir Hossen <br>Web-Developer <br>19103045@iubat.edu <br>+880 1609235391</p>
-            <p> 2. Athiqur Rahman Pranto<br>Web-Developer<br></p>
           </div>
           <!-- Grid column -->
 
@@ -73,9 +75,9 @@
       <div class="align-items-center">
         <div
          class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
+         style="background-color: rgba(0, 0, 0, 0.2);color:white"
          >
-      © 2022 Copyright:Terms & Conditions; Privacy
+     <b> © 2022 Copyright:Terms & Conditions; Privacy</b>
     </div>
         <!-- <div class="col-lg-4 col-md-12 footer-social">
           <a href="#"><i class="fa fa-facebook"></i></a>
