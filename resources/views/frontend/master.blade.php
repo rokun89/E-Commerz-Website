@@ -41,7 +41,7 @@
 
 
   <!--================Home Banner Area =================-->
-  <!-- <section class="home_banner_area mb-40">
+  <section class="home_banner_area mb-40">
     <div class="banner_inner d-flex align-items-center">
       <div class="container">
         <div class="banner_content row">
@@ -54,9 +54,9 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -64,14 +64,14 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="{{url('/c111.png')}}" class="d-block w-100" alt="...">
+      <img src="{{url('/c1.jpg')}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="200">
-      <img src="{{url('/c3.jpg')}}" class="d-block w-100" alt="...">
+      <img src="{{url('/c2.jpg')}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
@@ -93,7 +93,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> -->
  
   <!--================End Home Banner Area =================-->
 
