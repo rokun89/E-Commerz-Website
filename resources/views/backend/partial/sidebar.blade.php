@@ -10,7 +10,7 @@
     <!-- Sidebar Start -->
     <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-light navbar-light">
-                <a href="#" class="navbar-brand mx-4 mb-3">
+                <a href="{{route('base.url')}}" class="navbar-brand mx-4 mb-3">
                     <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>Dashboard</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
@@ -24,23 +24,25 @@
                     </div>
                 </div>
                 <div class="navbar-nav w-100">
-                    <a href="#" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                    <a href="{{route('base.url')}}" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
 
                     <div class="nav-item">
-                        <a href="#" class="nav-link"><i class="fas fa-users me-2"></i>role</a>
+                        <a href="{{route('role.url')}}" class="nav-link"><i class="fas fa-users me-2"></i>role</a>
                     </div>
 
-                    <a href="#" class="nav-item nav-link"><i class="fas fa-user-check"></i>Permission</a>
+                    <a href="{{route('permission.url')}}" class="nav-item nav-link"><i class="fas fa-user-check"></i>Permission</a>
 
-                    <a href="#" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Categories</a>
+                    <a href="{{route('category.url')}}" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Categories</a>
 
-                    <a href="#" class="nav-item nav-link"><i class="fab fa-codepen me-2"></i>Brand</a>
+                    <a href="{{route('brand.url')}}" class="nav-item nav-link"><i class="fab fa-codepen me-2"></i>Brand</a>
 
-                    <a href="#" class="nav-item nav-link"><i class="fas fa-shopping-cart me-2"></i>Product</a>
+                    <a href="{{route('product.url')}}" class="nav-item nav-link"><i class="fas fa-shopping-cart me-2"></i>Product</a>
 
-                    <a href="#" class="nav-link"><i class="far fa-file-alt me-2"></i>Order</a>
+                    <a href="{{route('order.url')}}" class="nav-link"><i class="far fa-file-alt me-2"></i>Order</a>
 
-                    <a href="#" class="nav-item nav-link"><i class="	fas fa-money-check-alt me-2"></i>Payments</a>
+                    <a href="{{route('payment.url')}}" class="nav-item nav-link"><i class="fas fa-money-check-alt me-2"></i>Payments</a>
+
+                    <a href="{{route('report.url')}}" class="nav-item nav-link"><i class="fas fa-sticky-note me-2"></i>Report</a>
 
 
                     <div class="nav-item">

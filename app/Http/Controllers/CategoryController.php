@@ -6,5 +6,9 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    //
+    public function category()
+    {
+
+        return view('backend.pages.Categories.index');
+    }
 }

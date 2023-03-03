@@ -10,4 +10,8 @@ class backendController extends Controller
     {
         return view('backend.master');
     }
+    public function report()
+    {
+        return view('backend.pages.Report');
+    }
 }
