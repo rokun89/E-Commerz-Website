@@ -30,7 +30,15 @@
 
     <!-- Template Stylesheet (done) -->
     <link href="https://themewagon.github.io/dashmin/css/style.css" rel="stylesheet">
+    @notifyCss
 
+        <style type="text/css">
+            .notify{
+                z-index:1000000;
+                margin: top 5%;
+            } 
+        </style>
+        
 </head>
 
 <body>
@@ -104,7 +112,7 @@
 
 
 
-
+            <x:notify-messages />
 
 
 
@@ -142,6 +150,7 @@
 
     <!-- Template Javascript -->
     <script src="https://themewagon.github.io/dashmin/js/main.js"></script>
+    @notifyJs
 </body>
 
 </html>

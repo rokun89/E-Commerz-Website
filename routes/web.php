@@ -39,6 +39,9 @@ Route::get('/report',[backendController::class,'report'])->name('report.url');
 Route::get('/create/category',[CategoryController::class,'CreateNewCategory'])->name('create.category');
 Route::post('/category/store',[CategoryController::class,'CategoryStore'])->name('category.store');
 Route::get('/category/view/{id}',[CategoryController::class,'view'])->name('category.view');
+Route::get('/category/edit/{id}',[CategoryController::class,'edit'])->name('category.edit');
+Route::post('/category/update/{id}',[CategoryController::class,'update'])->name('category.update');
+Route::get('/category/delete/{id}',[CategoryController::class,'delete'])->name('category.delete');
 
 
 

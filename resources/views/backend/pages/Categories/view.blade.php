@@ -19,15 +19,15 @@
               <div class="thumbnail" style="background-color: aliceblue";>
               <div class="caption">
                   
-                  <h4 style="color: blue;"><u>Category Details</u></h4>
+                  <h4 style="color: black;"><u>Category Details:</u></h4>
 
-                  <p> <label for="Name">Name:</label>
+                  <p> <label for="Name" style="color:blue">Name:</label>
                   {{$view->name}}</p>
 
-                  <p> <label for="Name">Description:</label>
+                  <p> <label for="Name" style="color:blue">Description:</label>
                   {{$view->description}}</p>
 
-                  <p> <label for="Name">Status:</label>
+                  <p> <label for="Name" style="color:blue">Status:</label>
                   {{$view->status}}</p>
 
 

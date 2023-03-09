@@ -10,12 +10,12 @@
                 }
             </style>
 <section class="sections">
-    <form action="{{route('category.store')}}" method="post">
+    <form action="{{route('category.store')}}" method="post" enctype="multipart/form-data">
 
         @csrf
         <div class="form-group">
             <label for="name">Enter Category Name</label>
-            <input required name="category_name" type="text" class="form-control" id="name" placeholder="Enter Category Name">
+            <input name="category_name" type="text" class="form-control" id="name" placeholder="Enter Category Name">
         </div>
 
         <div class="form-group">
@@ -26,7 +26,7 @@
 
         <div class="form-group">
             <label for="image">Upload Image</label>
-            <input name="image" type="file" class="form-control" id="image">
+            <input name="image" class="form-control"  type="file" class="form-control">
         </div>
 
         <button type="submit" class="btn btn-success">Submit</button>
