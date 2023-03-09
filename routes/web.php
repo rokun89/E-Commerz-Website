@@ -38,7 +38,9 @@ Route::get('/report',[backendController::class,'report'])->name('report.url');
 // Categories Route
 Route::get('/create/category',[CategoryController::class,'CreateNewCategory'])->name('create.category');
 Route::post('/category/store',[CategoryController::class,'CategoryStore'])->name('category.store');
+Route::get('/category/view/{id}',[CategoryController::class,'view'])->name('category.view');
 
 
 
 Route::get('/web',[frontendController::class,'frontend'])->name('frontend.url');
+

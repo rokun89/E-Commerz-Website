@@ -9,8 +9,8 @@ class CategoryController extends Controller
 {
     public function category()
     {
-
-        return view('backend.pages.Categories.index');
+        $CategoryList=Category::all();
+        return view('backend.pages.Categories.index',compact('CategoryList'));
     }
     public function CreateNewCategory()
     {
@@ -20,11 +20,15 @@ class CategoryController extends Controller
     {
         // dd($request->all());
         Category::create([
-            //database column name => input field name
+
                 'name'=>$request->category_name,
-                
                 'description'=>$request->description
         ]);
         return redirect()->route('category.url');
+    }
+    public function view($id)
+    {
+        $view=Category::find($id);
+        return view('backend.pages.Categories.view',compact('view'));
     }
 }

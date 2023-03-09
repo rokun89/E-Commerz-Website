@@ -107,7 +107,7 @@
               <i class="flaticon-money"></i>
               <h3>Money back gurantee</h3>
             </a>
-            <p>Shall open divide a one</p>
+            <p><b>Shall open divide a one</b></p>
           </div>
         </div>
 
@@ -117,7 +117,7 @@
               <i class="flaticon-truck"></i>
               <h3>Free Delivery</h3>
             </a>
-            <p>Shall open divide a one</p>
+            <p><b>Shall open divide a one</b></p>
           </div>
         </div>
 
@@ -127,7 +127,7 @@
               <i class="flaticon-support"></i>
               <h3>Alway support</h3>
             </a>
-            <p>Shall open divide a one</p>
+            <p><b>Shall open divide a one</b></p>
           </div>
         </div>
 
@@ -137,7 +137,7 @@
               <i class="flaticon-blockchain"></i>
               <h3>Secure payment</h3>
             </a>
-            <p>Shall open divide a one</p>
+            <p><b>Shall open divide a one</b></p>
           </div>
         </div>
       </div>

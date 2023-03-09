@@ -8,31 +8,29 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Sl</th>
+      <th scope="col">Images</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Status</th>
+      <th scope="col">Action</th>
     </tr>
   </thead>
   <tbody>
+    @foreach($CategoryList as $key=>$list)
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">{{$key+1}}</th>
+      <td>{{$list->image}}</td>
+      <td>{{$list->name}}</td>
+      <td>{{$list->description}}</td>
+      <td>{{$list->status}}</td>
+      <td>
+        <a href="{{route('category.view',$list->id)}}" class="btn btn-primary">View</a>
+        <a href="" class="btn btn-success">edit</a>
+        <a href="" class="btn btn-danger">delete</a>
+      </td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+    @endforeach
   </tbody>
 </table>
 

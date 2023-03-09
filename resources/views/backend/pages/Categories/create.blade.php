@@ -4,7 +4,7 @@
 
             <style>
                 .sections{
-                    background-color: aliceblue;
+                    background-color: whitesmoke;
                     margin: 10%;
                     padding: 5%;
                 }
