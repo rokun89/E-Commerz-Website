@@ -6,7 +6,7 @@
             
    
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+<nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
                 <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
                     <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
                 </a>
@@ -16,21 +16,18 @@
                 <form class="d-none d-md-flex ms-4">
                     <input class="form-control border-0" type="search" placeholder="Search">
                 </form>
-                <div class="navbar-nav align-items-center ms-auto">
-                    
-                
+    <div class="navbar-nav align-items-center ms-auto">
 
-                    
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                           
-                            <span class="d-none d-lg-inline-flex"><h6>John Doe</h6></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">My Profile</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+        <div class="nav-item dropdown mt-2">
+            <button type="button" class="btn btn-outline-danger dropdown-toggle" id="admin-dropdown" data-bs-toggle="dropdown"> ( {{auth()->user()->name}} )</button>
+
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="admin-dropdown">
+                    <li><a href="#" class="dropdown-item">My Profile</a></li>
+                    <li><a href="{{route('logout')}}" class="dropdown-item">Logout</a></li>
+                </ul>
+        </div>
+
+
+    </div>
+</nav>
             <!-- Navbar End -->

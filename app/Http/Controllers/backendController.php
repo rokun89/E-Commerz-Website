@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class backendController extends Controller
 {
-    public function admin()
+    public function dashboard()
     {
         return view('backend.master');
     }
